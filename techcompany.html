@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volaso - The Future of Delivery</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+    <style>
+        .hero-bg {
+            background-image: url('Screenshot 2024-07-20 151216.png');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+        }
+        .bg-gradient {
+            background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+        }
+        .text-gradient {
+            background: -webkit-linear-gradient(#eee, #333);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateY(0);
+            }
+            40% {
+                transform: translateY(-30px);
+            }
+            60% {
+                transform: translateY(-15px);
+            }
+        }
+        @keyframes zoomIn {
+            from { opacity: 0; transform: scale(0.5); }
+            to { opacity: 1; transform: scale(1); }
+        }
+        .fade-in-up {
+            animation: fadeInUp 1s ease-out;
+        }
+        .bounce {
+            animation: bounce 2s infinite;
+        }
+        .zoom-in {
+            animation: zoomIn 1s ease-out;
+        }
+    </style>
+</head>
+<body class="font-sans leading-normal tracking-normal bg-gray-100">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">
+            <img src="Screenshot 2024-07-20 145642.png" alt="Volaso" width="30" height="30" class="d-inline-block align-top">
+            Volaso
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Technology</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link btn btn-outline-light" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-bg text-white text-center flex items-center justify-center fade-in-up">
+        <div class="container">
+            <h1 class="display-4 font-bold text-gradient">The Future of Delivery Is Here</h1>
+            <p class="lead mt-4">Discover a greener, faster self-driving delivery solution with Volaso.</p>
+        </div>
+    </header>
+
+    <!-- Vision Section -->
+    <section class="py-20 bg-gradient text-white">
+        <div class="container text-center">
+            <h2 class="text-4xl font-bold mb-4">Vision</h2>
+            <p class="text-lg">We’re Here to Revolutionize the World of Local Shipping</p>
+            <p class="mt-4">This is the space to introduce visitors to the business or brand.</p>
+        </div>
+    </section>
+
+    <!-- Product Section -->
+    <section class="py-20 bg-white">
+        <div class="container text-center">
+            <h2 class="text-4xl font-bold mb-4 text-gray-800 bounce">Our Product</h2>
+            <p class="text-lg text-gray-600">Fully Autonomous, Uncompromisingly Sustainable</p>
+            <div class="row mt-8">
+                <div class="col-md-6">
+                    <div class="bg-gray-50 shadow-lg rounded-lg p-8 m-4 fade-in-up">
+                        <h3 class="text-2xl font-bold text-gray-800">Optimized Battery Efficiency</h3>
+                        <p class="mt-4 text-gray-600"><strong>223 Mi</strong> Electric Range</p>
+                        <p class="text-gray-600"><strong>30 Min</strong> to Fully Charge</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="bg-gray-50 shadow-lg rounded-lg p-8 m-4 fade-in-up">
+                        <img src="Screenshot 2024-07-20 145434.png" alt="Battery" class="w-full h-auto rounded-lg">
+                        <p class="mt-4 text-gray-600">Efficient Product.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Company Progress Section -->
+    <section class="py-20 bg-gray-200">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 order-lg-2">
+                    <img src="Screenshot 2024-07-20 153546.png" alt="Company Progress" class="w-full h-auto rounded-lg shadow-lg zoom-in">
+                </div>
+                <div class="col-lg-6 order-lg-1 d-flex flex-column justify-content-center fade-in-up">
+                    <h2 class="text-4xl font-bold text-gray-800 mb-4">Company Progress</h2>
+                    <p class="text-lg text-gray-600">We have made significant strides in the development of our autonomous delivery solutions. Our team is dedicated to continuous improvement and innovation to ensure we stay ahead of the curve.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- New Delivery Car Section -->
+    <section class="py-20 bg-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <img src="Screenshot 2024-07-20 153606.png" alt="New Delivery Car" class="w-full h-auto rounded-lg shadow-lg zoom-in">
+                </div>
+                <div class="col-lg-6 d-flex flex-column justify-content-center fade-in-up">
+                    <h2 class="text-4xl font-bold text-gray-800 mb-4">New Delivery Car</h2>
+                    <p class="text-lg text-gray-600">Introducing our latest delivery vehicle, designed with state-of-the-art technology to provide a seamless and efficient delivery experience. It's fully electric, autonomous, and built for sustainability.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Business Partners Section -->
+    <section class="py-20 bg-gray-200">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 order-lg-2">
+                    <img src="Screenshot 2024-07-20 153646.png" alt="Business Partners" class="w-full h-auto rounded-lg shadow-lg zoom-in">
+                </div>
+                <div class="col-lg-6 order-lg-1 d-flex flex-column justify-content-center fade-in-up">
+                    <h2 class="text-4xl font-bold text-gray-800 mb-4">Our Business Partners</h2>
+                    <p class="text-lg text-gray-600">We collaborate with leading businesses and innovators to bring you the best delivery solutions. Our partners share our vision of a sustainable and efficient future for local shipping.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white text-center py-6">
+        <div class="container">
+            <div class="row">
+                <!-- About Section -->
+                <div class="col-md-3">
+                    <h5 class="font-bold text-lg mb-2">About Volaso</h5>
+                    <p>Volaso is revolutionizing local delivery with its cutting-edge autonomous technology and commitment to sustainability.</p>
+                </div>
+                <!-- Quick Links -->
+                <div class="col-md-3">
+                    <h5 class="font-bold text-lg mb-2">Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white hover:text-gray-400">Home</a></li>
+                        <li><a href="#" class="text-white hover:text-gray-400">Technology</a></li>
+                        <li><a href="#" class="text-white hover:text-gray-400">About</a></li>
+                        <li><a href="#" class="text-white hover:text-gray-400">Contact</a></li>
+                    </ul>
+                </div>
+                <!-- Social Media -->
+                <div class="col-md-3">
+                    <h5 class="font-bold text-lg mb-2">Follow Us</h5>
+                    <div class="flex justify-center mt-4">
+                        <a href="#" class="text-white hover:text-gray-400 mx-2">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="text-white hover:text-gray-400 mx-2">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="text-white hover:text-gray-400 mx-2">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="text-white hover:text-gray-400 mx-2">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+                <!-- Newsletter -->
+                <div class="col-md-3">
+                    <h5 class="font-bold text-lg mb-2">Newsletter</h5>
+                    <p>Subscribe to our newsletter for the latest updates and offers.</p>
+                    <form action="#">
+                        <input type="email" class="form-control mb-2" placeholder="Enter your email">
+                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="mt-4">
+                <p>&copy; 2024 Volaso. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- FontAwesome for social media icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</body>
+</html>
